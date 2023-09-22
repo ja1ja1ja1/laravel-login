@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 22-Set-2023 às 01:26
+-- Tempo de geração: 22-Set-2023 às 02:22
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.2.0
 
@@ -125,7 +125,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'João Lucas de Souza Conceição', 'ja1@gmail.com', NULL, '$2y$10$r5gKq1CVaMQhTaeh5huyRezpl/MEw3fRPITUVtNgpjg7AAjnvTuaW', NULL, '2023-09-22 02:21:19', '2023-09-22 02:21:19');
+(1, 'João Lucas de Souza Conceição', 'ja1@gmail.com', NULL, '$2y$10$r5gKq1CVaMQhTaeh5huyRezpl/MEw3fRPITUVtNgpjg7AAjnvTuaW', NULL, '2023-09-22 02:21:19', '2023-09-22 02:21:19'),
+(2, 'João Lucas de Souza', 'ja1lucas@gmail.com', NULL, '$2y$10$5X5Un.t/wEPJRZLOBad0Rubk85FjiviV2LIYhjvzyyNoyEPOlO162', NULL, '2023-09-22 03:21:29', '2023-09-22 03:21:29');
 
 --
 -- Índices para tabelas despejadas
@@ -203,7 +204,7 @@ ALTER TABLE `produtos_tabela`
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
